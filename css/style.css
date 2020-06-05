@@ -1,0 +1,196 @@
+:root {
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: #e5e5e5;
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+/*общие заголовки Ш-2*/
+general-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/*логотип*/
+.logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-help {
+  color: #2196f3;
+}
+/*навигация*/
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: #2196f3;
+}
+.contacts {
+  color: #757575;
+}
+/*эффективные решения*/
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* Особенности после главной картинки*/
+.features-item {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  text-transform: none;
+  color: #757575;
+}
+.features-img {
+  background-color: #f5f4fa;
+}
+/*чем мы занимаемся*/
+.job-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*наша команда*/
+.signature {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  font-weight: 500;
+}
+
+.team-text {
+  color: #757575;
+}
+.team-icon {
+  color: #afb1b8;
+}
+.team-icon:hover,
+.team-icon:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/*постоянные клиенты*?????????????????????????????????????????????????/
+
+/*подвал*/
+.main-footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.secondary-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.secondary-logo-help {
+  color: #2196f3;
+}
+.main-footer-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.main-footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-icon:hover,
+.footer-icon:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.text-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.main-footer-under {
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/*portfolio*/
+.filter-button {
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.portfolio-description {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+/*основной текст color: #212121; */
+/* цвет текста color: #757575; */
+/* цвет лого color: #000000;*/
+/*цвет вспомогательный color: #FFFFFF;*/
+/* akcent background: #2196F3; */
+/*цвет девелопер color: rgba(255, 255, 255, 0.4); */
+/* fon background: #E5E5E5;*/
+/* fon-help background: #F5F4FA; */
