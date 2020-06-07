@@ -18,8 +18,7 @@ body {
   font-style: normal;
 }
 /*общие заголовки Ш-2*/
-general-title {
-  font-weight: bold;
+general-heading {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -44,7 +43,11 @@ general-title {
   letter-spacing: 0.02em;
 }
 .site-nav-link:hover,
-.site-nav-link:focus {
+.site-nav-link:focus,
+.site-nav-link:active {
+  color: var(--akcent-color);
+}
+.main {
   color: var(--akcent-color);
 }
 .contacts {
@@ -62,6 +65,13 @@ general-title {
 .main-button {
   background-color: var(--akcent-color);
   color: var(--help-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* Особенности после главной картинки*/
 .features-item {
@@ -77,6 +87,12 @@ general-title {
 .features-img {
   background-color: #f5f4fa;
 }
+.features-title {
+  font-size: 14px;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 /*чем мы занимаемся*/
 .job-title {
   font-weight: bold;
@@ -89,7 +105,7 @@ general-title {
 /*наша команда*/
 .signature {
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
@@ -160,11 +176,14 @@ general-title {
 /*portfolio*/
 .filter-button {
   background: #f5f4fa;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #212121;
 }
 .filter-button:hover,
 .filter-button:focus {
